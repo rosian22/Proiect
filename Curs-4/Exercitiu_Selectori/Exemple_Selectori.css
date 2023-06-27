@@ -1,0 +1,84 @@
+/* Element Selector: */
+  /* p, .class-2, [type="text"] {
+    font-size: 90px;
+    } */
+
+
+    #acesta_este_id{
+      color: red;
+    }
+
+
+    .clasa_mea{
+      color: green;
+    }
+   
+
+/* Class Selector: */
+  /* .clasa_mea {
+    font-weight: bold;
+  } */
+
+/* ID Selector: */
+  /* #acesta_este_id {
+    color: yellow;
+  } */
+
+
+/* Attribute Selector: */
+  /* [type="text"] {
+    border: 1px solid black;
+    color: red;
+  }
+
+  [dimineata_cuSoare="bunaZiua"]{
+    color: blueviolet;
+  } */
+
+
+/* Descendant Selector: */
+  /* div p {
+    font-style: italic;
+  } */
+
+
+/* Child Selector: */
+  /* div > p {
+    color: red;
+  } */
+
+
+/* Adjacent Sibling Selector:  */
+  /* h2 + p {
+    margin-top: 10px;
+    color: red;
+  } */
+  
+/* General Sibling Selector:   */
+/* Selecteaza toate p-urile care sunt frati cu h2-uri */
+  /* h2 ~ p {
+    text-decoration: underline;
+  } */
+  
+/* Pseudo-Classes:  */
+/* :last-child */
+/* :only-child */
+/* :invalid */
+  /* p:only-child {
+    color: green;
+  } */
+
+  /* input:invalid{
+    color: red;
+    border: 1px solid;
+  } */
+ 
+/* Pseudo-Elements:   */
+  /* p::after {
+    content: ">>";
+  } */
+  
+
+  #my-input{
+    background-color: red;
+  }
